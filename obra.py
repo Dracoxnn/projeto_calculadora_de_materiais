@@ -84,20 +84,4 @@ with centro:
                     st.metric("🎨 Tinta", f"{math.ceil(result['tinta']):.2f}")
                     st.write('Litros')
 
-
-
-
-#     st.title("📦 Materiais necessários")
-
-#     col1, col2, col3 = st.columns(3)
-
-#     with col1:
-#         st.metric("🧱 Blocos", "3.509 un")
-
-#     with col2:
-#         st.metric("🪣 Cimento reboco", "55 sacos")
-
-#     with col3:
-#         st.metric("🎨 Tinta", "87 L")
-# # cd projeto_streamlit
 # streamlit run obra.py
